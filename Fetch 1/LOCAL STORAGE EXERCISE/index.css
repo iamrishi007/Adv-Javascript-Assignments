@@ -1,0 +1,88 @@
+* {
+     padding: 0;
+     margin: 0;
+}
+
+body {
+     background-color: #282B34;
+}
+
+#form {
+     height: 450px;
+     background-color: white;
+     width: 45%;
+     border: 1px solid goldenrod;
+     margin: 30px auto;
+     text-align: center;
+     color: #282B34;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#form>div {
+     /* border: 1px solid green; */
+     height: 75%;
+     width: 50%;
+     margin: 20px auto;
+     padding: 15px;
+}
+
+input {
+     height: 35px;
+     width: 60%;
+     font-size: 15px;
+     padding: 7px;
+     border-radius: 7px;
+
+}
+
+::placeholder {
+     padding: 7px;
+}
+
+label {
+     font-size: 22px;
+     font-weight: 600;
+}
+
+
+button {
+     width: 200px;
+     height: 45px;
+     font-size: 16px;
+     border-radius: 15px;
+     background-color: red;
+     color: white;
+}
+
+.display {
+     /* border: 1px solid red; */
+     display: flex;
+     height: 60px;
+     justify-content: space-evenly;
+     padding: 10px;
+     font-size: 20px;
+
+}
+
+
+table,
+th,
+td {
+     border: 1px solid white;
+     height: 100%;
+     width: 90%;
+     text-align: center;
+}
+
+
+table,
+th {
+     color: white;
+     font-size: 20px;
+}
+
+td {
+     color: white;
+     font-size: 20px;
+}
