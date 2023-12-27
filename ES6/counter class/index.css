@@ -1,0 +1,36 @@
+* {
+     padding: 0;
+     margin: 0;
+}
+
+body {
+     background-color: #282A35;
+}
+
+h1 {
+     color: white;
+     font-size: 50px;
+     font-weight: 700;
+     padding: 5px;
+}
+
+#container {
+     text-align: center;
+     height: 300px;
+     width: 80%;
+     margin: 50px auto;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button {
+     height: 40px;
+     width: 120px;
+     font-size: 18px;
+     margin: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.counterdata {
+     border: 1px solid red;
+     height: 100%;
+}
